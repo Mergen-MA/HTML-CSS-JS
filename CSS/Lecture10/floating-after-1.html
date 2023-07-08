@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Floating Elements</title>
+    <style>
+      div {
+        background-color: #0ff;
+      }
+
+      p {
+        width: 50px;
+        height: 50px;
+        border: 1px solid black;
+
+        margin-right: 10px;
+      }
+
+      #p1 {
+        background-color: #a52a2a;
+        float: left;
+        height: 150px;
+      }
+      #p2 {
+        background-color: #deb887;
+        float: right;
+        height: 100px;
+      }
+      #p3 {
+        background-color: #5f9ea0;
+        clear: both;
+      }
+      #p4 {
+        background-color: #ff7f50;
+      }
+      section {
+        clear: left; /* section bolumunun boxlarin hizasina kadar, acik mavi renkli bolum oluyor burda, uzamasini sagliyor */
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Floating of Elements</h1>
+
+    <div>
+      <p id="p1"></p>
+      <p id="p2"></p>
+      <p id="p3"></p>
+      <p id="p4"></p>
+      <section>
+        this is a regular content continuing after the paragtaph boxes.
+      </section>
+    </div>
+  </body>
+</html>
