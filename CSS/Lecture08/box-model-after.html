@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Box Model</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: gray;
+      }
+
+      #box {
+        background-color: blue;
+        padding: 10px 30px 10px 30px;
+        border: 20px solid black;
+        margin: 40px;
+        width: 300px;
+        box-sizing: border-box;
+      }
+      #content {
+        background-color: #90ee90;
+      }
+      h1 {
+        margin-bottom: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Box Model</h1>
+
+    <div id="box">
+      <div id="content">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, velit?
+      </div>
+    </div>
+  </body>
+</html>
