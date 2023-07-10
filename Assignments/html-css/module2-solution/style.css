@@ -1,0 +1,129 @@
+/* * {
+  box-sizing: border-box;
+} */
+header {
+  font-size: 49px;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 50px;
+}
+/* .container {
+  display: flex;
+
+  } */
+  
+  .box {
+    /* flex: 1; */
+    border: 2px solid black;
+    background-color: gray;
+    padding: 25px;
+    float: left;
+    position: relative;
+    width: 510px;
+    margin-right: 25px;
+    margin-left: 15px;
+    margin-bottom: 50px;
+  }
+  .box1 {
+    /* flex: 1; */
+    border: 2px solid black;
+    background-color: gray;
+    padding: 25px;
+    float: left;
+    position: relative;
+    width: 510px;
+    margin-right: 25px;
+    margin-left: 15px;
+    margin-bottom: 50px;
+  }
+  .box2 {
+    /* flex: 1; */
+    border: 2px solid black;
+    background-color: gray;
+    padding: 25px;
+    float: left;
+    position: relative;
+    width: 510px;
+    margin-right: 25px;
+    margin-left: 15px;
+    margin-bottom: 50px;
+  }
+  
+  .title1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px;
+    font-weight: bold;
+    border: 1px solid black;
+    padding-bottom: 5px;
+    background-color: pink;
+  }
+  .title2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px;
+    font-weight: bold;
+    border: 1px solid black;
+    padding-bottom: 5px;
+    background-color: red;
+  }
+  .title3 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px;
+    font-weight: bold;
+    border: 1px solid black;
+    padding-bottom: 5px;
+    background-color: yellow;
+  }
+  
+  /* .chicken {
+    background-color: pink;
+  }
+  
+  .beef {
+    background-color: red;
+  }
+  
+  .sushi {
+    background-color: yellow;
+  }
+
+  p {
+    background-color: gray;
+  } */
+
+  p {
+    font-size: 20px;
+  
+  }
+/* For Desktops Only */
+  /* @media (min-width: 992px) {
+   
+  } */
+
+  /* For Tablets Only */
+  @media (min-width: 768px) and (max-width: 991px) {
+   .box, .box1 {
+    width: 50%;
+    
+
+    .box2 {
+      width: 100%;
+      float: left;
+    }
+
+  
+   }
+  }
+
+  /* For Mobile Only */
+  @media (max-width: 767px) {
+   .box, .box1, .box2 {
+    width: 100%;
+   }
+  }
+
