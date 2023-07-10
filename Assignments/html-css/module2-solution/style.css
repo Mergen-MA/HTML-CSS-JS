@@ -8,10 +8,12 @@ header {
   padding-bottom: 50px;
   padding-top: 40px;
 }
-/* .container {
-  display: flex;
+.container {
+  /* display: flex; */
+ position:absolute;
+  
 
-  } */
+  }
   
   .box {
     /* flex: 1; */
@@ -21,8 +23,8 @@ header {
     float: left;
     position: relative;
     width: 480px;
-    margin-right: 25px;
-    margin-left: 15px;
+    margin-right: 45px;
+    margin-left: 50px;
     margin-bottom: 50px;
   }
   .box1 {
@@ -30,10 +32,11 @@ header {
     border: 2px solid black;
     background-color: gray;
     padding: 25px;
-    float: right;
+    float: left;
     position: relative;
+    
     width: 480px;
-    margin-right: 25px;
+    margin-right: 45px;
     margin-left: 15px;
     margin-bottom: 50px;
   }
@@ -42,7 +45,7 @@ header {
     border: 2px solid black;
     background-color: gray;
     padding: 25px;
-    float: left;
+    float: right;
     position: relative;
     width: 480px;
     margin-right: 25px;
@@ -102,33 +105,76 @@ header {
   
   }
 /* For Desktops Only */
-  /* @media (min-width: 992px) {
+  @media (min-width: 992px) {
+   .box{
+    float: left;
+   } 
    
-  } */
+   .box1 {
+    float: left;
+   } 
+   
+   
+   .box2 {
+    float: right;
+ 
+    
+   }
+  }
 
   /* For Tablets Only */
   @media (min-width: 768px) and (max-width: 991px) {
-   .box, .box1 {
-    width: 50%;
-    
-
-    .box2 {
-      width: 100%;
+    .box {
       float: left;
-    }
+      margin-left: 10px;
+      width: 40%;
+     }
+  
+     .box1 {
+      float: right;
+      width: 40%;
+      position: absolute;
+      margin-left: 450px;    
+     }
+  
+     .box2 {
+      position: relative;
+    
+      width: 90%;
+      margin-right: 35px;
+     
+     }
 
   
-   }
+
+  
+  
   }
 
   /* For Mobile Only */
   @media (max-width: 767px) {
-   .box, .box1, .box2 {
-    width: 100%;
+   .box{
     position: relative;
-    float: none;
-  
-    
-   }
+    float: left;
+    margin-left: 30px;
+
+   } 
+   
+   .box1 {
+    position: relative;
+    float: left;
+    margin-left: 30px;
+   } 
+   
+   
+   
+   .box2 {
+    position: relative;
+    margin-left: 30px;
+    float: left;
+   
   }
 
+ 
+
+  }
