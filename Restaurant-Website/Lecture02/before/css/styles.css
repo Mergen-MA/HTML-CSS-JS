@@ -1,0 +1,61 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #61122f;
+  font-family: 'Oxygen', sans-serif;
+}
+
+
+#header-nav {
+  background-color: #f6b319;
+  border-radius: 0px;
+  border: 0px;
+
+}
+
+#logo-img {
+  background: url('../images/Logo.png') no-repeat;
+  width: 300px;
+  height: 235px;
+  margin: 10px 10px 10px -260px;
+  border-radius: 25px;
+} 
+
+#logo {
+  width: 50px;
+  height: 40px;
+  
+  
+}
+
+.navbar-brand p {
+  margin-left: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #000;
+  text-transform: uppercase;
+  font-size: .7em;
+  
+  margin-left: 5px;
+}
+
+.navbar-brand p span {
+  vertical-align: middle;
+  margin-left: 5px;
+}
+
+.navbar-brand  a:hover, .navbar-brand a:focus{
+  text-decoration: none;
+}
+
+.navbar-brand h1 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #557c3e;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 25px;
+  margin-bottom: 40px;
+  margin-left: 0px;
+  line-height: .75px;
+}
