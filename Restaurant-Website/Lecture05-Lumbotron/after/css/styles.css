@@ -82,16 +82,20 @@ body {
   clear: both;
   margin-top: -30px
 }
-
+/* Home Page*/
+.container .jumbotron {
+  box-shadow: 0 0 50px #3f0c1f;
+  border: 2px solid #3f0c1f;
+}
+/*******************Large Devices Only*****************/
 @media (min-width: 1200px) {
-  .jumbotron {
+  .container .jumbotron {
     background: url('/after/images/jumbotron_1200.jpg') no-repeat;
     height: 675px;
-    box-shadow: 0 0 50px #3f0c1f;
-    border: 2px solid #3f0c1f;
+
   }
 }
-
+/*******************Medium Devices Only*****************/
 @media (min-width: 992px) and (max-width: 1199px) {
   #logo-img {
     background: url('/after/images/Logo.png') no-repeat;
@@ -99,12 +103,22 @@ body {
     height: 100px;
     margin: 5px 5px 5px 0;
   }
-}
 
+  .container .jumbotron {
+    background: url('/after/images/jumbotron_992.jpg') no-repeat;
+    height: 558px;
+   
+  }
+}
+/*******************Small Devices Only*****************/
 @media (min-width: 768px) and  (max-width: 991px) {
+  .container .jumbotron {
+    background: url('/after/images/jumbotron_768.jpg') no-repeat;
+    height: 432px;
 
+  }
 }
-
+/*******************Extra small Devices Only*****************/
 @media (max-width: 767px) {
   .navbar-brand {
     padding-top: 10px;
@@ -130,5 +144,12 @@ body {
   #collapsable-nav a span {
     font-size: 1em;
     margin-right: 5px;
+  }
+
+  .container .jumbotron {
+    margin-top: 30px;
+    padding: 0;
+    box-shadow: 0 0 50px #3f0c1f;
+    border: 2px solid #3f0c1f;
   }
 }
