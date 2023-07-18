@@ -102,12 +102,12 @@ body {
 }
 
 #menu-tile {
-  background: url('/after/images/menu-tile.jpg');
+  background: url('/after/images/menu-tile.jpg') no-repeat;
   background-position: center;
 }
 
 #specials-tile {
-  background: url('/after/images/specials-tile.jpg');
+  background: url('/after/images/specials-tile.jpg') no-repeat;
   background-position: center;
 }
 
@@ -192,4 +192,38 @@ body {
     box-shadow: 0 0 50px #3f0c1f;
     border: 2px solid #3f0c1f;
   }
+
+  #menu-tile, #specials-tile {
+    width: 360px;
+    margin: 0 auto 15px;
+  
+  }
 }
+
+/*******************Super Extra small Devices Only*****************/
+
+@media (max-width: 479px) {
+
+  /* Header */
+
+  .navbar-brand h1 { /* Restaurant name*/
+    padding-top: 5px;
+    font-size: 6vw;
+
+  }
+
+  /* Home page */ 
+
+  #menu-tile, #specials-tile {
+    width: 280px;
+    margin: 0 auto 15px;
+  }
+
+
+  
+
+}
+
+
+
+
