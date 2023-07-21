@@ -328,6 +328,8 @@ h3.menu-item-title {
   }
   /* End of Footer */
 
+   /* Home Page */
+
   .container .jumbotron {
     margin-top: 30px;
     padding: 0;
@@ -341,12 +343,26 @@ h3.menu-item-title {
   
   }
 
-  #xs-deliver {
+  .menu-item-photo {
+    margin-right: auto;
+  }
+
+  .menu-item-tile .menu-item-price {
+    text-align: center;
+  }
+
+  .menu-item-description {
+    text-align: center;
+  }
+
+  /* #xs-deliver {
     margin-top: 5px;
     font-size: .7em;
     letter-spacing: .1em;
     text-transform: uppercase;
-  }
+  } */
+
+
 
 
 }
