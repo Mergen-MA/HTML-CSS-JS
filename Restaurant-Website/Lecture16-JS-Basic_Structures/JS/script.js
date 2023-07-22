@@ -1,0 +1,32 @@
+// *** String concatination
+
+var string = "Hello";
+string += " World";
+console.log(string + "!")
+
+
+// *** Regular math operators
+
+console.log((5 + 4) / 3);
+console.log(undefined / 5);
+
+// *** Equality
+
+var x = 4, y = 4;
+if (x == y) {
+  console.log("x=4 is equal to y=4");
+}
+
+x = "4";
+if (x == y) {
+  console.log("x='4' is equal to y=4");
+}
+
+// *** Strict Equality
+
+if ( x === y) {
+  console.log("Strict: x='4' is equal to y=4");
+}
+else {
+  console.log("Strict: x='4' is not equal to y=4");
+}
