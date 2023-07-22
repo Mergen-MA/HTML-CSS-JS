@@ -77,3 +77,17 @@ for (i = 0; i < 10; i++) {
 }
 
 console.log("sum of 0 through 9 is: " + sum);
+
+// Default Values
+
+function orderChickenWith(sideDish) {
+  // if (sideDish === undefined) {
+  //   sideDish = "whatever!"
+  // }
+
+  sideDish = sideDish || "whatever!";
+  console.log("chicken with " + sideDish)
+}
+
+orderChickenWith("noodles")
+orderChickenWith()
