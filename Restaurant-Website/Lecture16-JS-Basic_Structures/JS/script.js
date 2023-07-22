@@ -30,3 +30,19 @@ if ( x === y) {
 else {
   console.log("Strict: x='4' is not equal to y=4");
 }
+
+// *** If Statement (all false)
+
+if ( false || null ||
+      undefined || "" || 0 || NaN) {
+        console.log("this line won't ever execute");
+      }
+else {
+  console.log("All false");
+}
+
+// *** If Statement (all true)
+
+if (true && "hello" && 1 && -1 && "false") {
+  console.log("All True")
+}
