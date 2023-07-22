@@ -12,6 +12,22 @@ var a = function () {
     b();
 }
 
-
-
 a();
+
+var x = function () {
+    console.log("Hello World");
+    return;
+  };
+  x();
+
+  var x = function () {
+    console.log("Hello World");
+    return;
+  };
+
+  var x = function () {
+    console.log("Hello World");
+    return;
+  };
+  x = "hello, I am a new value!";
+
