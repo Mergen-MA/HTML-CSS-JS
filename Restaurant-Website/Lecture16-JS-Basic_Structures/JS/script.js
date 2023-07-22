@@ -46,3 +46,34 @@ else {
 if (true && "hello" && 1 && -1 && "false") {
   console.log("All True")
 }
+
+// *** Best practice for {} style
+// Curly brace on the same or next line..
+
+function a()
+{
+  return
+  {
+    name: "Mali"
+  };
+}
+
+function b() {
+  return {
+    name: "Mali"
+  };
+}
+
+console.log(a());
+console.log(b());
+
+
+// *** For Loop
+
+var sum = 0;
+for (i = 0; i < 10; i++) {
+  console.log(i)
+  sum = sum + i;
+}
+
+console.log("sum of 0 through 9 is: " + sum);
