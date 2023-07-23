@@ -20,5 +20,27 @@ for (var i = 0; i < names.length; i++) {
 
 names[100] = "Mali";
 for (var i = 0; i < names.length; i++) {
-    console.log("Hello " +names[i]);
+    console.log("Hello " + names[i]);
 }
+//////////////////////////////////////////////////////
+
+var names2 = ["Mali", "Jay", "Nishant", "Rohit"];
+
+var myObj = {
+    name: "Mali",
+    course: "HTML, CSS, JS",
+    platform: "Udemy",
+};
+
+for (var prop in myObj) {
+    console.log(prop, myObj[prop]);
+}
+
+///////////////////////////////////////////////////////
+
+var counter = 0;
+var myArray = ["Mali", 2, {handle: "yaakin"}];
+for (var i = 0; i < myArray.length; i++) {
+    counter++;
+}
+console.log(counter);
