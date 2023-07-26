@@ -2,7 +2,9 @@
 document.addEventListener("DOMContentLoaded",
     function (event) {
 
-function sayHello() {
+function sayHello(event) {
+    console.log(event); //event objec log the click event.
+
     this.textContent = "Said it!";
     var name =
         document.getElementById("name").value;
@@ -23,6 +25,7 @@ function sayHello() {
             .querySelector("h1")
             .textContent = title;
         }
+        
 }
 
 // Unobstrusive event binding
@@ -30,5 +33,14 @@ function sayHello() {
 document.querySelector("button")
     .addEventListener("click", sayHello);
 
+    document.querySelector("body")
+    .addEventListener("mousemove",
+    function (event) {
+        if (event.shiftKey) {
+        console.log("x: " + event.clientX);
+        console.log("y: " + event.clientY);
+
+        }
+    });
 }
 );
