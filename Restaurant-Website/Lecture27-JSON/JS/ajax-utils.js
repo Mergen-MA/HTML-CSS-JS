@@ -19,11 +19,11 @@ function getRequestObject() {
 }
 // Makes an Ajax GET request to 'requestUrl'
 ajaxUtils.sendGetRequest =
-    function (requestUrl, responseHandler, isJsonREsponse) {
+    function (requestUrl, responseHandler, isJsonResponse) {
         var request = getRequestObject();
         request.onreadystatechange =
             function () {
-                handleResponse(request,responseHandler, isJsonREsponse);
+                handleResponse(request,responseHandler, isJsonResponse);
             };
 
             request.open("GET", requestUrl, true);
@@ -34,7 +34,7 @@ ajaxUtils.sendGetRequest =
     // Only calls user provided 'responseHandler'
     // function if response is ready
     // and not an error
-    function handleResponse(request, responseHandler, isJsonREsponse) {
+    function handleResponse(request, responseHandler, isJsonResponse) {
         if ((request.readyState == 4) &&
             (request.status == 200)) {
         
@@ -43,7 +43,7 @@ ajaxUtils.sendGetRequest =
             isJsonResponse = true;
         }
 
-        if (isJsonREsponse) {
+        if (isJsonResponse) {
             responseHandler(JSON.parse(request.responseText))
         }
 
