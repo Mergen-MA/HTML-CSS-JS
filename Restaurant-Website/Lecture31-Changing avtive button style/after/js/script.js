@@ -54,6 +54,21 @@ $(function () {
     return string;
   };
 
+  //Remove the class 'active' from home and switch to Menu button
+  var switchMenuToActive = function () {
+    // Remove 'active' from home button
+    var classes = document.querySelector("#navHomeButton").className;
+    classes = classes.replace(new RegExp("active", "g"), "");
+    document.querySelector("#navHomeButton").className = classes;
+
+    // Add 'active' to menu button if not already there
+    classes = document.querySelector("#navMenuButton").className;
+    if (classes.indexOf("active") == -1) {
+      classes += " active";
+      document.querySelector("#navMenuButton").className = classes;
+    }
+  };
+
   // On page load (before images or CSS)
   document.addEventListener("DOMContentLoaded", function (event) {
     // On first load, show home view
@@ -118,7 +133,7 @@ $(function () {
     var finalHtml = categoriesTitleHtml;
     finalHtml += "<section class='row'>";
 
-    // Loop over categories
+    // Loop over menu
     for (var i = 0; i < categories.length; i++) {
       // Insert category values
       var html = categoryHtml;
