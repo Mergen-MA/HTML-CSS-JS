@@ -22,7 +22,7 @@
     <nav id="hamburger-nav">
       <div class="logo">Muhammed Ali Dinc</div>
       <div class="hamburger-menu">
-        <div class="hamburger-icon">
+        <div class="hamburger-icon" onclick="toggleMenu()">
           <span></span>
           <span></span>
           <span></span>
@@ -35,6 +35,45 @@
         </div>
       </div>
     </nav>
+    <section id="profile">
+      <div class="sec__pic-container">
+        <img
+          src="./assets/Lebenslaufbild-3.jpg"
+          alt="Muhammed Ali Dinc profile pic"
+        />
+      </div>
+      <div class="section-text">
+        <p class="section-text-p1">Hello, I'm</p>
+        <h1 class="title">M. Ali Dinc</h1>
+        <p class="section-text-p2">DevOps Engineer</p>
+        <div class="btn-container">
+          <button
+            class="btn-color-2"
+            onclick="window.open('./assets/Resume.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+
+        <div class="socials-container">
+          <img
+            src="assets/linkedin.png"
+            alt="My LinkedIn Profile"
+            class="icon"
+            onclick="location.href='https://linkedin.com/in/malidinc'"
+          />
+          <img
+            src="assets/github.png"
+            alt="My Github Profile"
+            class="icon"
+            onclick="location.href='https://github.com/Mergen-MA'"
+          />
+        </div>
+      </div>
+    </section>
     <script src="script.js"></script>
   </body>
 </html>
