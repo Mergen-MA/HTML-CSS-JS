@@ -180,6 +180,7 @@ section {
     
 }
 
+
 .sec__pic-container {
    display: flex;
     height: 400px;
@@ -282,6 +283,11 @@ img.about-pic {
     height: 300px;
     
     
+}
+
+.sec-container {
+    display: flex;
+   
 }
 
 
