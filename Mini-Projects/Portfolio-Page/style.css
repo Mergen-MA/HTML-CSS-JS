@@ -31,7 +31,6 @@ a, btn {
 
 nav, .nav-links {
     display: flex;
-    border: 2px solid black;
 
 
 }
@@ -54,7 +53,6 @@ a {
     color: black;
     text-decoration: none;
     text-decoration-color: white;
-    border: 2px solid blue;
 
 }
 
@@ -119,7 +117,7 @@ a:hover {
     display: block;
     padding: 10px;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1em;
     color: #333;
     text-decoration: none;
     transition: all 0.3 ease-in-out;
@@ -150,8 +148,8 @@ a:hover {
 
 section img {
     border-radius: 60%;
-    width: 500px;
-    height: 500px;
+    width: 200px;
+    height: 250px;
     
     
 }
@@ -161,16 +159,14 @@ section img {
 section {
     padding: 4vh;
     height: 96vh;
-    margin: 0 10rem;
+    
     box-sizing: border-box;
     min-height: fit-content;
-    border: 2px solid black;
+
    
 }
 
-.section-container {
-    display: flex;
-}
+
 
 
 /* PROFILE SECTION */
@@ -179,48 +175,50 @@ section {
     display: flex;
     justify-content: center;
     height: 80vh;
-    border: 10px solid black;
-    gap: 50px;
-    
+    gap: 10px;   
+    /* margin-left: 200px; */
     
 }
 
 .sec__pic-container {
+   
     height: 400px;
-    width: 400px;
-    margin: auto 0;
+    width: 300px;
+    margin:auto 0;
+    text-align: center;
     
     
 }
 
 .section-text {
-   align-self: flex-start;
+   
+   margin-top: 40px;
+   margin-left: -40px;
    text-align: center;
-   border: 2px solid black;
+   
 }
 
 .section-text p{
-    font-weight: 600;
+    font-weight: 500;
 }
 .section-text-p1{
     text-align: center;
-    font-size: 1.75rem;
+    font-size: 1.45rem;
     margin-bottom: 1rem;
 }
 
 .title {
-    font-size: 3rem;
+    font-size: 2rem;
     text-align: center;
 }
 
 .socials-container {
     display: flex;
-   
+    margin-left: 45px;
     margin-top: 1rem;
     gap: 1rem;
-    border: 2px solid maroon;
-    height: 100px;
-    width: 100px;
+    height: 60px;
+    width: 60px;
 }
 
 
