@@ -148,8 +148,8 @@ a:hover {
 
 img.pic-1 {
     border-radius: 60%;
-    width: 200px;
-    height: 250px;
+    width: 250px;
+    height: 300px;
     
     
 }
@@ -193,7 +193,7 @@ section {
 
 .section-text {
    
-   margin-top: 40px;
+   margin-top: 20px;
 
    text-align: center;
    
@@ -202,10 +202,10 @@ section {
 .section-text p{
     font-weight: 500;
 }
-.section-text-p1{
+.section-text-p1, .section-text-1 {
     text-align: center;
-    font-size: 1.45rem;
-    margin-bottom: 1rem;
+    font-size: 2.45rem;
+    
 }
 .section-text-p2{
     text-align: center;
@@ -214,8 +214,9 @@ section {
 }
 
 .title {
-    font-size: 2rem;
+    font-size: 3rem;
     text-align: center;
+    margin-bottom: 1rem;
 }
 
 .socials-container {
@@ -290,6 +291,76 @@ img.about-pic {
    
 }
 
+/* ABOUT */
+
+#about {
+    position: relative;
+}
+
+.about-containers {
+    gap: 2rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.about-details-container {
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    
+}
+
+.about-containers,
+.about-details-container {
+    display: flex;
+    gap: 1rem;
+}
+
+.about-pic {
+    border-radius: 2rem;
+}
+
+.arrow {
+    position: absolute;
+    right: 5rem;
+    bottom: 2.5rem;
+
+}
+
+.details-container {
+    padding: 1.5rem;
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
+    gap: 2rem;
+    
+}
+
+.sec-container {
+    gap: 4rem;
+    height: 80%;
+}
+
+.section-pic-container {
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+}
+
+.icon-arrow {
+    position: absolute;
+    width: 3rem;
+    text-align: center;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.text-container {
+    margin-bottom: 2rem;
+}
 
 
 
