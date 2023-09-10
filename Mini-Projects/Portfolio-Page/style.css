@@ -193,9 +193,9 @@ section {
 
 .section-text {
    
-   margin-top: 20px;
-
+   margin-top: 15px;
    text-align: center;
+ 
    
 }
 
@@ -204,19 +204,19 @@ section {
 }
 .section-text-p1, .section-text-1 {
     text-align: center;
-    font-size: 2.45rem;
+    font-size: 1.15rem;
     
 }
 .section-text-p2{
     text-align: center;
     font-size: 1.45rem;
-    margin-bottom: .5rem;
+    margin-bottom: 0.5rem;
 }
 
 .title {
-    font-size: 3rem;
+    font-size: 3.5rem;
     text-align: center;
-    margin-bottom: 1rem;
+    margin-bottom: 5rem;
 }
 
 .socials-container {
@@ -280,8 +280,8 @@ section {
 
 img.about-pic {
     /* border-radius: 50%; */
-    width: 250px;
-    height: 300px;
+    width: 240px;
+    height: 290px;
     
     
 }
@@ -295,6 +295,7 @@ img.about-pic {
 
 #about {
     position: relative;
+    margin-bottom: 3.5rem;
 }
 
 .about-containers {
@@ -323,25 +324,25 @@ img.about-pic {
 .arrow {
     position: absolute;
     right: 5rem;
-    bottom: 2.5rem;
+    bottom: auto;
 
 }
 
 .details-container {
-    padding: 1.5rem;
+    padding: .4rem;
     flex: 1;
     background: white;
     border-radius: 2rem;
     border: rgb(53, 53, 53) 0.1rem solid;
     border-color: rgb(163, 163, 163);
     text-align: center;
-    gap: 2rem;
+
     
 }
 
 .sec-container {
     gap: 4rem;
-    height: 80%;
+    height: 70%;
 }
 
 .section-pic-container {
@@ -360,7 +361,15 @@ img.about-pic {
 
 .text-container {
     margin-bottom: 2rem;
+    font-size: 1rem;
 }
+
+.title-about {
+    font-size: 3.5rem;
+    margin-bottom: 5rem;
+    text-align: center;
+}
+
 
 
 
