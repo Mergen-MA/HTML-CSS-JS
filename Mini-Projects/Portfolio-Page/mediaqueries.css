@@ -8,3 +8,36 @@
     }
 
 }
+
+@media (max-width: 1212px) {
+    .details-container {
+        max-width: 400px;
+        max-height: 100px;
+    }
+
+    .edu {
+        font-size: .8rem;
+    }
+}
+
+@media (max-width: 1132px) {
+    .edu {
+        font-size: .7rem;
+    }
+}
+
+@media (max-width: 968px) {
+    .edu {
+        font-size: .6rem;
+    }
+
+    .details-container h3  {
+        font-size: .8em;
+    }
+}
+
+@media (max-width: 968px) {
+    .text-container {
+        font-size: .9rem;
+    }
+}
