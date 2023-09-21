@@ -158,8 +158,8 @@ img.pic-1 {
 /* SECTIONS */
 
 section {
-    padding: 12vh;
-    height: 88vh;
+    padding: 4rem;
+    /* height: 88vh; */
     
     box-sizing: border-box;
     min-height: fit-content;
@@ -175,7 +175,7 @@ section {
 #profile {
     display: flex;
     justify-content: center;
-    height: 80vh;
+    /* height: 80vh; */
     gap: 10px;  
     margin-bottom: -10px;
     flex-grow: 1;
@@ -305,13 +305,14 @@ img.about-pic {
 .about-containers {
     gap: 2rem;
     margin-bottom: 1rem;
-    margin-top: 5rem;
+    
 }
 
 .about-details-container {
     justify-content: center;
     flex-direction: column;
     gap: 2rem;
+    margin-top: 0;
     
 }
 
