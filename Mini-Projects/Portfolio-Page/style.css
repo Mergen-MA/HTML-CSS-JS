@@ -297,7 +297,7 @@ img.about-pic {
 
 #about {
     position: relative;
-    margin-bottom: 1.3rem;
+    margin-bottom: 1rem;
     /* border: 4px solid black; */
     
 }
@@ -329,7 +329,7 @@ img.about-pic {
 .arrow {
     position: absolute;
     right: 3rem;
-    bottom: 0px;
+    
   
 
 }
