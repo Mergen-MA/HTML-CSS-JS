@@ -325,6 +325,7 @@ img.about-pic {
 .about-details-container {
     display: flex;
     gap: 1rem;
+    /* flex-wrap: wrap; */
 }
 
 .about-pic {
@@ -432,5 +433,34 @@ article.icon {
     cursor: default;
 }
 
+/* PROJECTS SECTION */
 
+#projects {
+    position: relative;
+  }
+  
+  .color-container {
+    border-color: rgb(163, 163, 163);
+    background: rgb(250, 250, 250);
+  }
+  
+  .project-img {
+    border-radius: 2rem;
+    width: 90%;
+    height: 90%;
+  }
+  
+  .project-title {
+    margin: 1rem;
+    color: black;
+  }
+  
+  .project-btn {
+    color: black;
+    border-color: rgb(163, 163, 163);
+  }
+
+#projects .experience-details-container .about-containers {
+    flex-wrap: wrap;
+}
 
